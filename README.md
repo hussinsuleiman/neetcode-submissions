@@ -1,4 +1,4 @@
-# NeetCode Solutions — @hussinsuleiman
+# Programming Problem Solutions — @hussinsuleiman
 
 > Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
 
@@ -6,7 +6,7 @@
 
 ## What is this?
 
-[NeetCode.io](https://neetcode.io) is a coding interview preparation platform featuring curated problems, video solutions, and an in-browser code editor. This repository is automatically populated with your accepted (or all) solutions using the **GitHub Sync** feature.
+This repository collects accepted solutions from [NeetCode](https://neetcode.io) and [Kattis](https://open.kattis.com). NeetCode submissions are populated through GitHub Sync; Kattis submissions are exported from the account's accepted solutions.
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## Repository structure
 
-LeetCode solutions are organized by topic category, then problem ID. Each submission is stored as a separate file:
+Solutions are organized by platform, topic category, then problem ID. Each submission is stored as a separate file:
 
 ```
 Data Structures & Algorithms/
@@ -31,14 +31,21 @@ Data Structures & Algorithms/
         submission-0.<ext>   ← first submission
         submission-1.<ext>   ← second submission
         ...
+  kattis submissions/
+    <topic-category>/
+      <problem-id>/
+        submission-<kattis-id>.<ext>
 ```
 
 **Example:**
 ```
 Data Structures & Algorithms/leetcode/arrays-and-hashing/two-integer-sum/submission-0.py
 Data Structures & Algorithms/leetcode/binary-search/binary-search/submission-0.ts
+Data Structures & Algorithms/kattis submissions/strings/lvable/submission-18386514.py
 SQL/sql-customers-without-orders/submission-0.sql
 ```
+
+The [Kattis index](Data%20Structures%20&%20Algorithms/kattis%20submissions/README.md) lists all exported problems, categories, and difficulty ratings.
 
 ---
 

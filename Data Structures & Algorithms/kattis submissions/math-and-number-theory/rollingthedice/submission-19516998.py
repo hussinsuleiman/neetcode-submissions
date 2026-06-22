@@ -1,0 +1,7 @@
+s = input()
+s0 = s.split('d')
+X = int(s0[0])
+s1 = s0[1].split('+')
+Y = int(s1[0])
+Z = int(s1[1])
+print((X+X*Y)*0.5+Z)
