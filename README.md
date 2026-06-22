@@ -21,21 +21,23 @@
 
 ## Repository structure
 
-Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
+LeetCode solutions are organized by topic category, then problem ID. Each submission is stored as a separate file:
 
 ```
-<topic-folder>/
-  <problem-id>/
-    submission-0.<ext>   ← first submission
-    submission-1.<ext>   ← second submission
-    ...
+Data Structures & Algorithms/
+  leetcode/
+    <topic-category>/
+      <problem-id>/
+        submission-0.<ext>   ← first submission
+        submission-1.<ext>   ← second submission
+        ...
 ```
 
 **Example:**
 ```
-Data Structures & Algorithms/two-integer-sum/submission-0.py
-Data Structures & Algorithms/binary-search/submission-0.ts
-Python For Beginners/python-hello-world/submission-0.py
+Data Structures & Algorithms/leetcode/arrays-and-hashing/two-integer-sum/submission-0.py
+Data Structures & Algorithms/leetcode/binary-search/binary-search/submission-0.ts
+SQL/sql-customers-without-orders/submission-0.sql
 ```
 
 ---
